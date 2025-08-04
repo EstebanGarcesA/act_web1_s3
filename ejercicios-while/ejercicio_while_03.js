@@ -1,6 +1,4 @@
-// Ejercicio While 3: Validador de Contraseña
-// Desarrolla un programa que use while para solicitar una contraseña hasta que cumpla con los criterios: 
-// admin123
+
 
 let password = "";
 let intentos = 0;

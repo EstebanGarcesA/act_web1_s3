@@ -1,3 +1,11 @@
-// Ejercicio While 4: Generador de Números Aleatorios
-// Usa un ciclo while para generar números aleatorios entre 1 y 100 hasta que salga el número 50. 
-// Cuenta cuántos intentos tomó.
+let counter = 0;
+let number = 0;
+
+while (number < 95) {
+    number = Math.floor(Math.random()*100);
+    console.log(`El numero generado es ${number}`);
+    counter++;
+    
+}
+
+console.log(`El numero de veces para que me generara un numero mayor a 95 fue ${counter} `);
