@@ -1,3 +1,13 @@
-// Ejercicio For 6: Calculadora de Potencias
-// Implementa una función que use un ciclo for para calcular la potencia de un número sin usar Math.pow(). 
-// Debe mostrar el proceso paso a paso.
+let base = 4;
+let exponente = 6;
+let resultado =1;
+
+console.log(`Calculando: ${base} ^ ${exponente}`);
+
+for (i=1;i<exponente;i++){
+    resultado *=base
+    console.log(`Paso ${i}: ${resultado} * ${base} = ${resultado*base} `);
+}
+
+console.log(`resultado final: ${resultado*base}`);
+
